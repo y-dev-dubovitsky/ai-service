@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Запускаем приложение
-CMD ["uvicorn", "your_script_name:app", "--host", "0.0.0.0", "--port", "5000"]
+CMD ["uvicorn", "ai_sber:app", "--host", "0.0.0.0", "--port", "5000"]
